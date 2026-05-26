@@ -5,7 +5,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/prince-gupta-7a3464193/',
   github: 'https://github.com/prince19998',
   huggingface: 'https://huggingface.co/princegupta19998',
-  resume: '/resume-prince-gupta.pdf',
+  resume: `${import.meta.env.BASE_URL}resume-prince-gupta.pdf`,
 };
 
 export const skills = [

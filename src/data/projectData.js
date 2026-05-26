@@ -1,10 +1,12 @@
+const assetPath = (path) => `${import.meta.env.BASE_URL}${path}`;
+
 export const projectCategories = ['All', 'AI/ML', 'LLM', 'Computer Vision', 'Web Apps', 'Research', 'APIs'];
 
 export const projects = [
   {
     title: 'AI Interview System',
     description: 'Adaptive interview platform that generates role-specific questions, evaluates answers, and summarizes candidate readiness with LLM feedback.',
-    image: '/projects/ai-interview.svg',
+    image: assetPath('projects/ai-interview.svg'),
     techStack: ['React', 'FastAPI', 'LangChain', 'Groq API','OpenRouter', 'MongoDB','MySQL'],
     github: 'https://github.com/prince19998',
     huggingface: 'https://huggingface.co/princegupta19998',
@@ -16,7 +18,7 @@ export const projects = [
   {
   title: 'AI College Admissions Assistant',
   description: 'AI-powered college admissions assistant that helps students explore colleges, understand eligibility, get admission guidance, and receive personalized recommendations using LLMs and intelligent automation.',
-  image: 'public/projects/AI College Admi.png',
+  image: assetPath('projects/AI College Admi.png'),
   techStack: ['Python', 'LLM', 'Streamlit', 'AI/ML'],
   github: 'https://github.com/prince19998/AI-College-Admissions-Assistant',
   // huggingface: '',
@@ -28,8 +30,8 @@ export const projects = [
   {
     title: 'YOLO Object Detection',
     description: 'Real-time object detection pipeline using YOLO for image and video analytics with model evaluation dashboards.',
-    // image: '/projects/yolo-detection.svg',
-    image: 'public/projects/yolo.png',
+    // image: assetPath('projects/yolo-detection.svg'),
+    image: assetPath('projects/yolo.png'),
     techStack: ['Python', 'YOLO', 'OpenCV', 'PyTorch'],
     github: 'https://github.com/prince19998/YOLO-Object-Detection',
     // huggingface: '',
@@ -41,7 +43,7 @@ export const projects = [
   {
     title: 'Voice Assistant',
     description: 'Conversational assistant with speech recognition, LLM reasoning, and task automation for productivity workflows.',
-    image: '/projects/voice-assistant.svg',
+    image: assetPath('projects/voice-assistant.svg'),
     techStack: ['Python', 'Ollama', 'Whisper', 'FastAPI'],
     github: 'https://github.com/username/voice-assistant',
     // huggingface: '',
@@ -53,8 +55,8 @@ export const projects = [
   {
   title: 'Youtube Video Summarizer using Hugging Face facebook-bart-large-cnn',
   description: 'AI-powered video summarization application that extracts and summarizes video content using Hugging Face Transformers and the facebook/bart-large-cnn model for fast and accurate text summarization.',
-  // image: '/projects/youtube.png',
-  image: 'public/projects/youtube.png',
+  // image: assetPath('projects/youtube.png'),
+  image: assetPath('projects/youtube.png'),
   techStack: ['Python', 'Hugging Face', 'Transformers', 'Streamlit'],
   github: 'https://github.com/prince19998/video_summizer_using_huggingfcae_facebook-bart-large-cnn',
   huggingface: '',
@@ -66,7 +68,7 @@ export const projects = [
   {
     title: 'Mood-based Music Recommender',
     description: 'Recommendation engine that maps user mood signals to music suggestions using ML features and a clean web interface.',
-    image: '/projects/music-recommender.svg',
+    image: assetPath('projects/music-recommender.svg'),
     techStack: ['Python', 'Scikit-learn', 'React', 'Flask'],
     github: 'https://github.com/prince19998/youtify_moodey_video_-_song_play',
     huggingface: '',
@@ -78,7 +80,7 @@ export const projects = [
   {
     title: 'RAG Chatbot',
     description: 'Retrieval augmented chatbot that answers from private documents with chunking, embeddings, vector search, and cited responses.',
-    image: '/projects/rag-chatbot.svg',
+    image: assetPath('projects/rag-chatbot.svg'),
     techStack: ['LangChain', 'FAISS', 'FastAPI', 'Ollama'],
     github: 'https://github.com/prince19998/chatbot',
     huggingface: '',
