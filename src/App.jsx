@@ -117,11 +117,11 @@ function App() {
                 <div><strong>7+</strong><span>Featured Projects</span></div>
                 <div><strong>2</strong><span>Internships</span></div>
                 <div><strong>Full</strong><span>Static Deploy</span></div>
-                <div><strong>SEO</strong><span>Ready</span></div>
+                <div><strong>AI/ML</strong><span>Ready</span></div>
               </div>
               <div className="code-window">
-                <span>prince@ai-lab:~$ deploy portfolio</span>
-                <code>{'status: recruiter_ready && production_polished'}</code>
+                <span>Princegupta19998@gmail.com</span>
+                <code>{'Data Science, AI/ML Engineer'}</code>
               </div>
             </motion.div>
           </div>
@@ -202,7 +202,7 @@ function App() {
 
         <AnimatedSection id="research" className="section split-section">
           <div>
-            <SectionHeader kicker="Research & Publications" title="Multimodal AI research direction." />
+            <SectionHeader kicker="Research & Publications On IEEE" title="Multimodal AI research direction." />
             <p className="large-copy">
               “Multimodal Emotion Recognition using Vision, Text, and Audio with Transformer Models”
             </p>
