@@ -25,7 +25,7 @@ export const experience = [
     period: 'Working',
     detail: 'Created an AI-powered CRM with voice/text interfaces and multilingual support for enhanced customer engagement.',
   },
-  
+
   {
     company: 'WebMobi360 Internship',
     role: 'AI/ML Intern',

@@ -544,17 +544,34 @@ h1 {
   gap: 1rem;
 }
 
-.github-grid img {
-  width: 100%;
+.github-card {
+  display: grid;
   min-height: 170px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
+  overflow: hidden;
+}
+
+.github-grid img {
+  width: 100%;
+  min-height: inherit;
+  display: block;
+}
+
+.github-card.fallback {
+  place-items: center;
+  padding: 1rem;
+  color: var(--green);
+  font-weight: 800;
 }
 
 .github-grid .contrib {
   grid-column: 1 / -1;
   min-height: 120px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
   padding: 1rem;
   object-fit: contain;
 }

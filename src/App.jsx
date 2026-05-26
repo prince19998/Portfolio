@@ -30,6 +30,12 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeFilter, setActiveFilter] = useState('All');
   const [scrollProgress, setScrollProgress] = useState(0);
+  const githubUsername = githubUser(profile.github);
+  const githubCards = {
+    stats: `https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${githubUsername}&theme=github_dark`,
+    languages: `https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${githubUsername}&theme=github_dark`,
+    contributions: `https://ghchart.rshah.org/38d9a9/${githubUsername}`,
+  };
   const filteredProjects = useMemo(
     () => (activeFilter === 'All' ? projects : projects.filter((project) => project.tags.includes(activeFilter))),
     [activeFilter],
@@ -216,9 +222,9 @@ function App() {
         <AnimatedSection id="github" className="section">
           <SectionHeader kicker="GitHub Stats" title="Development activity at a glance." />
           <div className="github-grid">
-            <img src={`https://github-readme-stats.vercel.app/api?username=${githubUser(profile.github)}&show_icons=true&theme=tokyonight&hide_border=true`} alt="GitHub stats card" />
-            <img src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${githubUser(profile.github)}&layout=compact&theme=tokyonight&hide_border=true`} alt="Top languages card" />
-            <img className="contrib" src={`https://ghchart.rshah.org/38d9a9/${githubUser(profile.github)}`} alt="GitHub contribution graph" />
+            <GitHubCard src={githubCards.stats} alt={`${githubUsername} GitHub stats card`} href={profile.github} label="View GitHub stats" />
+            <GitHubCard src={githubCards.languages} alt={`${githubUsername} top languages card`} href={`${profile.github}?tab=repositories`} label="View repositories" />
+            <img className="contrib" src={githubCards.contributions} alt={`${githubUsername} GitHub contribution graph`} loading="lazy" />
           </div>
         </AnimatedSection>
 
@@ -308,6 +314,20 @@ function ProjectCard({ project }) {
         </div>
       </div>
     </motion.article>
+  );
+}
+
+function GitHubCard({ src, alt, href, label }) {
+  const [hasError, setHasError] = useState(false);
+
+  return (
+    <a className={hasError ? 'github-card fallback' : 'github-card'} href={href} target="_blank" rel="noreferrer">
+      {hasError ? (
+        <span>{label}</span>
+      ) : (
+        <img src={src} alt={alt} loading="lazy" onError={() => setHasError(true)} />
+      )}
+    </a>
   );
 }
 
