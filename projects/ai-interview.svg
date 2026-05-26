@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="AI interview dashboard preview">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#163b4b"/></linearGradient></defs>
+  <rect width="960" height="600" fill="url(#g)"/><circle cx="740" cy="130" r="170" fill="#38d9a9" opacity=".14"/><circle cx="210" cy="480" r="180" fill="#7d5cff" opacity=".18"/>
+  <rect x="130" y="110" width="700" height="380" rx="22" fill="#0d1627" stroke="#ffffff" stroke-opacity=".16"/>
+  <rect x="170" y="155" width="270" height="250" rx="16" fill="#111d33"/><circle cx="305" cy="240" r="55" fill="#38d9a9" opacity=".9"/><path d="M235 336h140M235 370h105" stroke="#a8b3c7" stroke-width="16" stroke-linecap="round"/>
+  <path d="M505 175h210M505 230h255M505 285h190M505 340h235" stroke="#5fd7ff" stroke-width="18" stroke-linecap="round" opacity=".8"/>
+  <text x="170" y="462" fill="#f5f7fb" font-family="Arial" font-size="34" font-weight="700">AI Interview System</text>
+</svg>

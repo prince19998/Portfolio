@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="RAG chatbot preview">
+  <rect width="960" height="600" fill="#070a12"/><circle cx="480" cy="300" r="235" fill="#101a2d"/>
+  <rect x="170" y="145" width="250" height="145" rx="22" fill="#38d9a9" opacity=".9"/><rect x="540" y="190" width="250" height="145" rx="22" fill="#5fd7ff" opacity=".82"/><rect x="290" y="360" width="380" height="95" rx="22" fill="#7d5cff" opacity=".85"/>
+  <path d="M420 230h120M480 290v70" stroke="#f5f7fb" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+  <path d="M215 205h155M585 250h155M340 410h280" stroke="#071018" stroke-width="15" stroke-linecap="round" opacity=".65"/>
+  <text x="340" y="540" fill="#f5f7fb" font-family="Arial" font-size="34" font-weight="700">RAG Chatbot</text>
+</svg>

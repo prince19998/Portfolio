@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Meeting summarizer bot preview">
+  <rect width="960" height="600" fill="#071019"/><rect x="120" y="115" width="720" height="370" rx="24" fill="#101a2e" stroke="#ffffff" stroke-opacity=".15"/>
+  <rect x="165" y="165" width="190" height="120" rx="16" fill="#38d9a9" opacity=".85"/><rect x="385" y="165" width="190" height="120" rx="16" fill="#5fd7ff" opacity=".75"/><rect x="605" y="165" width="190" height="120" rx="16" fill="#7d5cff" opacity=".82"/>
+  <path d="M180 345h600M180 390h430M180 435h510" stroke="#a8b3c7" stroke-width="17" stroke-linecap="round"/>
+  <text x="175" y="535" fill="#f5f7fb" font-family="Arial" font-size="34" font-weight="700">Meeting Summarizer Bot</text>
+</svg>
