@@ -1,1 +1,38 @@
-Add Prince Gupta's resume PDF here before deployment.
+Prince Kumar Gupta
+Data Science | AI/ML Engineer
+Phone:- +916386664148 | princegupta19998@gmail.com | GitHub |https://prince19998.github.io/Portfolio/ | LinkedIn
+Education
+M.Tech In Data Science | SAGE University | (2023-2025) | CGPA:- 8.4
+B.Tech in Electronics and Communication | RGPV University | 2018-2022 | CGPA:- 7.41
+Work Experience
+Metrro Waste Handling Pvt Ltd |Full Time | Feb 2025 – Present
+CRM Platform
+ Created an AI-powered CRM with voice/text interfaces and multilingual support for enhanced customer engagement.
+ Automated business workflows using FastAPI and LangChain, boosting efficiency by 40% with self-healing systems.
+ Deployed scalable AI models to production using Docker, Kubernetes, and cloud platforms with secure CI/CD pipelines.
+Webmobi360 | B2B AIML Solutions | Full-Time Intership | September 2024 – Feb 2025
+ Developed an AI-powered Interview System, auto-generating dynamic interview questions.
+ Built an LLM-powered chatbot to improve client engagement & automate responses.
+ Implemented real-time object detection using YOLO and OpenCV for tracking & identification applications
+Data Einstein | Data Science Internship | June 2022 – March 2023
+ Developed predictive models using Decision Trees, XGBoost, and Random Forest, achieving 95% accuracy.
+ Built marketing attribution models with Logistic & Linear Regression to optimize client budget allocation (85% accuracy).
+ Collaborated with client teams to deliver AI-driven insights on time.
+Technical Skill
+ Programming & Data Analysis: Python (NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, XG-Boost), Statistics.
+ Generative AI & NLP: LLMs (LLaMA, GPT), RAG, Prompt Engineering, Fine-tuning, LangChain, HuggingFace, Ollama, Vector Databases (Pinecone, FAISS, ChromaDB).
+ MLOps & Deployment: CI/CD, Docker, Kubernetes, FastAPI,Flask, Streamlit, MLflow, DagsHub, n8n.
+ Machine Learning: Supervised/Unsupervised Learning, Deep Learning (CNNs, RNNs, LSTMs), Hyper-parameter Tuning.
+ Cloud & Tools: AWS, GCP, MySQL, Microsoft Server 2022,Tableau, Power BI, GitHub.
+Projects
+ API & Local LLM Chatbot (LangChain & Ollama): Built a secure, local RAG-based chatbot using Stream- lit and Groq API,OpenRouter for high-speed inference.
+ Flight Fare Prediction: Developed a regression-based price forecasting tool using Random Forest and XGBoost, achieving a 90% R2 score.
+ Heart Disease Detection: Improved classification model accuracy from 78% to 94%
+through advanced feature engineering and SMOTE techniques.
+Certification
+ Certified Data Scientist (Data Einstein Pvt Ltd)
+ Udemy ML,NLP,MLOPS Deployment Bootcamp (KRISHAI Technologies Pvt Ltd)
+ Udemy Generative AI with Langchain And Huggingface (KRISHAI Technologies Pvt Ltd)
+ AI/ML Engineer Intern(WebMobi 360)
+ Certified Data Science (IBM)
+ Certified Data Science (ASTRION VENTURES)
