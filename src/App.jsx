@@ -256,7 +256,7 @@ function App() {
         <nav>
           {navItems.map((item) => <a key={item} href={`#${item.toLowerCase()}`}>{item}</a>)}
         </nav>
-        <p>© 2026 Prince Gupta. Built for AI, data, and product teams.</p>
+        <p>© 2026 Prince Gupta. Built for AI/ML, Data Science Contact No:- 6386664148.</p>
       </footer>
 
       <button className="back-to-top" aria-label="Back to top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
