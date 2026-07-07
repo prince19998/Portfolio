@@ -92,7 +92,7 @@ export const projects = [
    {
     title: 'Financial Document Intelligence Platform With AI',
     description: 'A full-stack Financial Document Management system with Semantic Analysis (RAG) capabilities. Upload financial documents (PDF, DOCX, CSV, TXT), automatically extract and index their content using vector embeddings, and perform intelligent semantic search across your entire document corpus. Built with FastAPI + React (Vite) — featuring JWT authentication, Role-Based Access Control (RBAC), FAISS vector search, cross-encoder re-ranking, and a modern responsive dashboard..',
-    image: assetPath('projects/AI_Powered_Financial_Document_Management_System.png'),
+    image: assetPath('projects/AI-Management-Systems.png'),
     techStack: ['Python', 'Scikit-learn', 'React', 'Flask','FastAPI','Transformer','LLM'],
     github: 'https://github.com/prince19998/Financial-Document-Management-with-Semantic-Analysis.git',
     huggingface: 'https://huggingface.co/spaces/princegupta19998/AI_Powered_Financial_Document_Management_System',
